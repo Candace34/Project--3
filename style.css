@@ -1,0 +1,18 @@
+body {
+  background-image: url(./images/Background.png);
+  background-size: cover;
+  height: 100vh;
+}
+.is-custom {
+  background-color: #7e3875;
+}
+.is-purple {
+  background-color: #9b0952;
+}
+.is-custom-size {
+  width: 50vh;
+  justify-content: center;
+}
+#navbarBasicExample {
+  background-color: #6e0b3d;
+}
