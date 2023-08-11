@@ -1,7 +1,7 @@
 body {
   background-image: url(./images/Background.png);
   background-size: cover;
-  height: 100vh;
+  background-attachment: scroll;
 }
 .is-custom {
   background-color: #7e3875;
@@ -15,4 +15,23 @@ body {
 }
 #navbarBasicExample {
   background-color: #6e0b3d;
+}
+.columns-news img {
+  width: 20vh;
+}
+p {
+  font-size: 30px;
+  justify-content: center;
+}
+.responsive-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.columns-custom {
+  font-size: 30px;
+}
+.social-icons-container img {
+  width: 25%;
+}
+@media screen and (max-width: 600px) {
 }
