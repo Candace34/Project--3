@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+
 body {
   background-image: url(./images/Background.png);
   background-size: cover;
@@ -11,7 +13,6 @@ body {
 }
 .is-custom-size {
   width: 50vh;
-  justify-content: center;
 }
 #navbarBasicExample {
   background-color: #6e0b3d;
@@ -20,7 +21,7 @@ body {
   width: 20vh;
 }
 p {
-  font-size: 30px;
+  font-size: 20px;
   justify-content: center;
 }
 .responsive-video {
@@ -30,8 +31,16 @@ p {
 .columns-custom {
   font-size: 30px;
 }
-.social-icons-container img {
+.social-icons-container img,
+.social-icons-container a {
   width: 25%;
 }
+.has-text-custom {
+  font-family: "Pinyon Script", cursive;
+  font-size: 4em;
+}
 @media screen and (max-width: 600px) {
+  .is-custom-size img {
+    width: 80%;
+  }
 }
